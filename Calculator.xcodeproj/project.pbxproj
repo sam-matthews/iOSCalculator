@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -85,6 +85,7 @@
 				225A623F1F023B10005ED26A /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		225A623F1F023B10005ED26A /* Products */ = {
 			isa = PBXGroup;
@@ -196,6 +197,7 @@
 				TargetAttributes = {
 					225A623D1F023B10005ED26A = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R6F8ZUGJL9;
 						ProvisioningStyle = Automatic;
 					};
 					225A62541F023B10005ED26A = {
@@ -211,7 +213,7 @@
 				};
 			};
 			buildConfigurationList = 225A62391F023B10005ED26A /* Build configuration list for PBXProject "Calculator" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -417,24 +419,28 @@
 		225A626A1F023B10005ED26A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = I;
+				DEVELOPMENT_TEAM = R6F8ZUGJL9;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sam.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = sam.myCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		225A626B1F023B10005ED26A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = I;
+				DEVELOPMENT_TEAM = R6F8ZUGJL9;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sam.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = sam.myCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -511,6 +517,7 @@
 				225A626B1F023B10005ED26A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		225A626C1F023B10005ED26A /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +526,7 @@
 				225A626E1F023B10005ED26A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		225A626F1F023B10005ED26A /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +535,7 @@
 				225A62711F023B10005ED26A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
